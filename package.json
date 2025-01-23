@@ -1,0 +1,13 @@
+{
+  "name": "poker-card-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start:api\" \"npm run start:app\"",
+    "start:api": "cd cardartAPI && npm start",
+    "start:app": "cd demoapp && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
