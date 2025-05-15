@@ -14,6 +14,6 @@ const root = ReactDOM.createRoot(container);
 root.render(
   <QueryClientProvider client={queryClient}>
     <PokerDeck />
-    {/* <PokerCard /> */}
+    <PokerCard />
   </QueryClientProvider>
 );
